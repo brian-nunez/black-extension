@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Black New Tab",
+  "version": "0.1.0",
+  "description": "",
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "./newtab/newtab.html"
+  },
+  "browser_action": {
+    "default_title": "Black New Tab"
+  }
+}
